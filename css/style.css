@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Launch
+Client: Relaxr
+Author: William Keck
+Developer @GA in Seattle
 */
 
 
@@ -26,7 +26,7 @@ Developer @GA in NYC
      line-height: 0;
      height: 0;
 }
-
+300 300 600 800
 .clear {
   clear: both;
 }
@@ -49,10 +49,95 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: "Open Sans"
 }
+
+h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color:white;
+  text-decoration: 600;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #033048;
+}
+
+p {
+
+}
+
+.benefits
+
+.benefits p {
+  font-weight: 300;
+}
+
+ul {
+
+}
+
+li {
+  list-style-type: circle;
+  color:#606161;
+}
+
+.radius {
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 800;
+  display:inline-block;
+  padding: 10px 30px;
+}
+
+.interest-button-1 {
+  font-size: 14px;
+  background-color: #f9e42e;
+  color: 033048;
+}
+
+.interest-button-2 {
+  font-size: 12px;
+  background-color: #033048;
+  color: white;
+}
+
+blockquote {
+
+}
+
+blockquote p {
+  font-weight: 300;
+  text-decoration: italic;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.author-name {
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+}
+
+
+.copyright {
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
+}
+
 
 
 /******************************************
@@ -67,13 +152,20 @@ body {
 
 }
 
+/* Header Styling */
+
 header {
+  background: url(../images/header_bg.jpg) no-repeat top left;
+  width:100%;
+  height: 100%;
 
 }
+
 
 footer {
 
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
