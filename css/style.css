@@ -56,7 +56,8 @@ h1 {
   color: white;
   font-size: 48px;
   font-weight: 800;
-  margin-left: 20px;
+  padding-left: 130px;
+  padding-top: 30px;
 }
 
 h2 {
@@ -64,7 +65,8 @@ h2 {
   color:white;
   text-decoration: 600;
   text-align: center;  
-  margin-top: 150px; 
+  margin-top: 120px; 
+  margin-bottom: 40px;
 }
 
 h3 {
@@ -106,25 +108,28 @@ li {
   font-size: 28px;
 }
 
-.radius {
+.interest-button-1 {
+  font-size: 28px;
+  background-color: #f9e42e;
+  color: 033048;
   border-radius: 5px;
   text-align: center;
   font-weight: 800;
   display:inline-block;
   padding: 10px 30px;
-}
-
-.interest-button-1 {
-  font-size: 28px;
-  background-color: #f9e42e;
-  color: 033048;
-  margin: 5% 10%;
+  margin-left: -20%;
 }
 
 .interest-button-2 {
   font-size: 28px;
   background-color: #033048;
   color: white;
+  position: relative;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 800;
+  display:inline-block;
+  padding: 10px 30px;
 }
 
 blockquote {
@@ -196,7 +201,7 @@ header {
 }
 
 blockquote span {
-  padding-top: 70px;
+  padding-top: 35px;
   padding-bottom: 20px;
   text-align: center;
   display: block;
@@ -207,6 +212,14 @@ blockquote span {
   background-color: #f9e42e;
   width: 100%;
   height: 150px;
+}
+
+.button-centering {
+  display: inline;  
+  position: absolute;
+  width: 100%;
+  padding-top: 45px;
+  padding-left: 675px;
 }
 
 .social-buttons {
