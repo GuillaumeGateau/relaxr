@@ -78,8 +78,12 @@ h3 {
 
 .social {
   color:#f9e42e;
+  font-weight: 600;
+  font-size: 40px;
   text-align: center;
   display: block;
+  padding-top: 75px;
+
 }
 
 .benefits p {
@@ -191,14 +195,13 @@ header {
   height: 300px;
 }
 
-blockquote  {
-  width:60%;
+blockquote span {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  text-align: center;
+  display: block;
 }
 
-blockquote span {
-  padding-top: 50px;
-  padding-bottom: 10px;
-}
 
 .call-to-action {
   background-color: #f9e42e;
@@ -209,7 +212,7 @@ blockquote span {
 .social-buttons {
   display: block;
   text-align: center;
-  margin-bottom: 50px;
+  margin: 50px;
 }
 
 .social-button-padding {
