@@ -131,7 +131,7 @@ blockquote span {
   font-weight: 300;
   text-decoration: italic;
   color: white;
-  font-size: 18px;
+  font-size: 28px;
   display: block;
   text-align: center;
   width:100%;
@@ -182,8 +182,22 @@ header {
   background-color: #071324;
 }
 
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) rgb(134,141,157);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 12%;
+  width: 1200px;
+  height: 300px;
+}
+
 blockquote  {
   width:60%;
+}
+
+blockquote span {
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 .call-to-action {
@@ -192,9 +206,19 @@ blockquote  {
   height: 150px;
 }
 
-.button-text {
+.social-buttons {
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
 
+.social-button-padding {
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
+.copyright {
+  padding-bottom: 40px;
 }
 
 footer {
