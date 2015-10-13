@@ -122,6 +122,10 @@ p {
   padding: 60px 0px 20px 0px;
 }
 
+.sidebar-info {
+  color:#033048;
+}
+
 .read-more {
   color:#033048;
   text-decoration: none;
@@ -137,6 +141,14 @@ p {
   color:#033048;
   text-decoration: none;
   float:right;
+  font-weight: 600;
+}
+
+.learn-more {
+  font-size: 24px;
+  color:#033048;
+  text-decoration: none;
+  float:left;
   font-weight: 600;
 }
 
